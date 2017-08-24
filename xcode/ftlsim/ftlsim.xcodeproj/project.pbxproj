@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6CCEAD141F4E984F00531357 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6CCEAD131F4E984F00531357 /* main.cpp */; };
+		6CCEAD9F1F4E9AED00531357 /* SSDSim.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6CCEAD9E1F4E9AED00531357 /* SSDSim.cpp */; };
+		6CCEADA61F4E9B0600531357 /* bast_ftl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6CCEADA01F4E9B0600531357 /* bast_ftl.cpp */; };
+		6CCEADA71F4E9B0600531357 /* bdftl_ftl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6CCEADA11F4E9B0600531357 /* bdftl_ftl.cpp */; };
+		6CCEADA81F4E9B0600531357 /* dftl_ftl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6CCEADA21F4E9B0600531357 /* dftl_ftl.cpp */; };
+		6CCEADA91F4E9B0600531357 /* dftl_parent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6CCEADA31F4E9B0600531357 /* dftl_parent.cpp */; };
+		6CCEADAA1F4E9B0600531357 /* fast_ftl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6CCEADA41F4E9B0600531357 /* fast_ftl.cpp */; };
+		6CCEADAB1F4E9B0600531357 /* page_ftl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6CCEADA51F4E9B0600531357 /* page_ftl.cpp */; };
+		6CCEADB41F4E9B3100531357 /* ssd_package.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6CCEADAC1F4E9B3100531357 /* ssd_package.cpp */; };
+		6CCEADB51F4E9B3100531357 /* ssd_page.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6CCEADAD1F4E9B3100531357 /* ssd_page.cpp */; };
+		6CCEADB61F4E9B3100531357 /* ssd_plane.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6CCEADAE1F4E9B3100531357 /* ssd_plane.cpp */; };
+		6CCEADB71F4E9B3100531357 /* ssd_raidssd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6CCEADAF1F4E9B3100531357 /* ssd_raidssd.cpp */; };
+		6CCEADB81F4E9B3100531357 /* ssd_ram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6CCEADB01F4E9B3100531357 /* ssd_ram.cpp */; };
+		6CCEADB91F4E9B3100531357 /* ssd_ssd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6CCEADB11F4E9B3100531357 /* ssd_ssd.cpp */; };
+		6CCEADBA1F4E9B3100531357 /* ssd_stats.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6CCEADB21F4E9B3100531357 /* ssd_stats.cpp */; };
+		6CCEADBB1F4E9B3100531357 /* ssd_wl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6CCEADB31F4E9B3100531357 /* ssd_wl.cpp */; };
+		6CCEADC21F4E9B6100531357 /* ssd_config.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6CCEADBC1F4E9B6100531357 /* ssd_config.cpp */; };
+		6CCEADC31F4E9B6100531357 /* ssd_controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6CCEADBD1F4E9B6100531357 /* ssd_controller.cpp */; };
+		6CCEADC41F4E9B6100531357 /* ssd_die.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6CCEADBE1F4E9B6100531357 /* ssd_die.cpp */; };
+		6CCEADC51F4E9B6100531357 /* ssd_event.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6CCEADBF1F4E9B6100531357 /* ssd_event.cpp */; };
+		6CCEADC61F4E9B6100531357 /* ssd_ftlparent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6CCEADC01F4E9B6100531357 /* ssd_ftlparent.cpp */; };
+		6CCEADC71F4E9B6100531357 /* ssd_gc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6CCEADC11F4E9B6100531357 /* ssd_gc.cpp */; };
+		6CCEADCD1F4E9B7700531357 /* ssd_address.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6CCEADC81F4E9B7700531357 /* ssd_address.cpp */; };
+		6CCEADCE1F4E9B7700531357 /* ssd_block.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6CCEADC91F4E9B7700531357 /* ssd_block.cpp */; };
+		6CCEADCF1F4E9B7700531357 /* ssd_bm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6CCEADCA1F4E9B7700531357 /* ssd_bm.cpp */; };
+		6CCEADD01F4E9B7700531357 /* ssd_bus.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6CCEADCB1F4E9B7700531357 /* ssd_bus.cpp */; };
+		6CCEADD11F4E9B7700531357 /* ssd_channel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6CCEADCC1F4E9B7700531357 /* ssd_channel.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6CCEAD0E1F4E984F00531357 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6CCEAD101F4E984F00531357 /* ftlsim */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ftlsim; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CCEAD131F4E984F00531357 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6CCEAD9E1F4E9AED00531357 /* SSDSim.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SSDSim.cpp; path = ../../../flashsim/SSDSim.cpp; sourceTree = "<group>"; };
+		6CCEADA01F4E9B0600531357 /* bast_ftl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = bast_ftl.cpp; path = ../../../flashsim/FTLs/bast_ftl.cpp; sourceTree = "<group>"; };
+		6CCEADA11F4E9B0600531357 /* bdftl_ftl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = bdftl_ftl.cpp; path = ../../../flashsim/FTLs/bdftl_ftl.cpp; sourceTree = "<group>"; };
+		6CCEADA21F4E9B0600531357 /* dftl_ftl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = dftl_ftl.cpp; path = ../../../flashsim/FTLs/dftl_ftl.cpp; sourceTree = "<group>"; };
+		6CCEADA31F4E9B0600531357 /* dftl_parent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = dftl_parent.cpp; path = ../../../flashsim/FTLs/dftl_parent.cpp; sourceTree = "<group>"; };
+		6CCEADA41F4E9B0600531357 /* fast_ftl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = fast_ftl.cpp; path = ../../../flashsim/FTLs/fast_ftl.cpp; sourceTree = "<group>"; };
+		6CCEADA51F4E9B0600531357 /* page_ftl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = page_ftl.cpp; path = ../../../flashsim/FTLs/page_ftl.cpp; sourceTree = "<group>"; };
+		6CCEADAC1F4E9B3100531357 /* ssd_package.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ssd_package.cpp; path = ../../../flashsim/ssd_package.cpp; sourceTree = "<group>"; };
+		6CCEADAD1F4E9B3100531357 /* ssd_page.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ssd_page.cpp; path = ../../../flashsim/ssd_page.cpp; sourceTree = "<group>"; };
+		6CCEADAE1F4E9B3100531357 /* ssd_plane.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ssd_plane.cpp; path = ../../../flashsim/ssd_plane.cpp; sourceTree = "<group>"; };
+		6CCEADAF1F4E9B3100531357 /* ssd_raidssd.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ssd_raidssd.cpp; path = ../../../flashsim/ssd_raidssd.cpp; sourceTree = "<group>"; };
+		6CCEADB01F4E9B3100531357 /* ssd_ram.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ssd_ram.cpp; path = ../../../flashsim/ssd_ram.cpp; sourceTree = "<group>"; };
+		6CCEADB11F4E9B3100531357 /* ssd_ssd.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ssd_ssd.cpp; path = ../../../flashsim/ssd_ssd.cpp; sourceTree = "<group>"; };
+		6CCEADB21F4E9B3100531357 /* ssd_stats.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ssd_stats.cpp; path = ../../../flashsim/ssd_stats.cpp; sourceTree = "<group>"; };
+		6CCEADB31F4E9B3100531357 /* ssd_wl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ssd_wl.cpp; path = ../../../flashsim/ssd_wl.cpp; sourceTree = "<group>"; };
+		6CCEADBC1F4E9B6100531357 /* ssd_config.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ssd_config.cpp; path = ../../../flashsim/ssd_config.cpp; sourceTree = "<group>"; };
+		6CCEADBD1F4E9B6100531357 /* ssd_controller.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ssd_controller.cpp; path = ../../../flashsim/ssd_controller.cpp; sourceTree = "<group>"; };
+		6CCEADBE1F4E9B6100531357 /* ssd_die.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ssd_die.cpp; path = ../../../flashsim/ssd_die.cpp; sourceTree = "<group>"; };
+		6CCEADBF1F4E9B6100531357 /* ssd_event.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ssd_event.cpp; path = ../../../flashsim/ssd_event.cpp; sourceTree = "<group>"; };
+		6CCEADC01F4E9B6100531357 /* ssd_ftlparent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ssd_ftlparent.cpp; path = ../../../flashsim/ssd_ftlparent.cpp; sourceTree = "<group>"; };
+		6CCEADC11F4E9B6100531357 /* ssd_gc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ssd_gc.cpp; path = ../../../flashsim/ssd_gc.cpp; sourceTree = "<group>"; };
+		6CCEADC81F4E9B7700531357 /* ssd_address.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ssd_address.cpp; path = ../../../flashsim/ssd_address.cpp; sourceTree = "<group>"; };
+		6CCEADC91F4E9B7700531357 /* ssd_block.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ssd_block.cpp; path = ../../../flashsim/ssd_block.cpp; sourceTree = "<group>"; };
+		6CCEADCA1F4E9B7700531357 /* ssd_bm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ssd_bm.cpp; path = ../../../flashsim/ssd_bm.cpp; sourceTree = "<group>"; };
+		6CCEADCB1F4E9B7700531357 /* ssd_bus.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ssd_bus.cpp; path = ../../../flashsim/ssd_bus.cpp; sourceTree = "<group>"; };
+		6CCEADCC1F4E9B7700531357 /* ssd_channel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ssd_channel.cpp; path = ../../../flashsim/ssd_channel.cpp; sourceTree = "<group>"; };
+		6CCEADD21F4E9B9500531357 /* ssd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ssd.h; path = ../../../flashsim/ssd.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6CCEAD0D1F4E984F00531357 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6CCEAD071F4E984F00531357 = {
+			isa = PBXGroup;
+			children = (
+				6CCEAD121F4E984F00531357 /* ftlsim */,
+				6CCEAD111F4E984F00531357 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6CCEAD111F4E984F00531357 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CCEAD101F4E984F00531357 /* ftlsim */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6CCEAD121F4E984F00531357 /* ftlsim */ = {
+			isa = PBXGroup;
+			children = (
+				6CCEAD9D1F4E9ABE00531357 /* FTLs */,
+				6CCEAD9C1F4E9AB600531357 /* ssd */,
+				6CCEAD131F4E984F00531357 /* main.cpp */,
+			);
+			path = ftlsim;
+			sourceTree = "<group>";
+		};
+		6CCEAD9C1F4E9AB600531357 /* ssd */ = {
+			isa = PBXGroup;
+			children = (
+				6CCEADD21F4E9B9500531357 /* ssd.h */,
+				6CCEADC81F4E9B7700531357 /* ssd_address.cpp */,
+				6CCEADC91F4E9B7700531357 /* ssd_block.cpp */,
+				6CCEADCA1F4E9B7700531357 /* ssd_bm.cpp */,
+				6CCEADCB1F4E9B7700531357 /* ssd_bus.cpp */,
+				6CCEADCC1F4E9B7700531357 /* ssd_channel.cpp */,
+				6CCEADBC1F4E9B6100531357 /* ssd_config.cpp */,
+				6CCEADBD1F4E9B6100531357 /* ssd_controller.cpp */,
+				6CCEADBE1F4E9B6100531357 /* ssd_die.cpp */,
+				6CCEADBF1F4E9B6100531357 /* ssd_event.cpp */,
+				6CCEADC01F4E9B6100531357 /* ssd_ftlparent.cpp */,
+				6CCEADC11F4E9B6100531357 /* ssd_gc.cpp */,
+				6CCEADAC1F4E9B3100531357 /* ssd_package.cpp */,
+				6CCEADAD1F4E9B3100531357 /* ssd_page.cpp */,
+				6CCEADAE1F4E9B3100531357 /* ssd_plane.cpp */,
+				6CCEADAF1F4E9B3100531357 /* ssd_raidssd.cpp */,
+				6CCEADB01F4E9B3100531357 /* ssd_ram.cpp */,
+				6CCEADB11F4E9B3100531357 /* ssd_ssd.cpp */,
+				6CCEADB21F4E9B3100531357 /* ssd_stats.cpp */,
+				6CCEADB31F4E9B3100531357 /* ssd_wl.cpp */,
+				6CCEAD9E1F4E9AED00531357 /* SSDSim.cpp */,
+			);
+			name = ssd;
+			sourceTree = "<group>";
+		};
+		6CCEAD9D1F4E9ABE00531357 /* FTLs */ = {
+			isa = PBXGroup;
+			children = (
+				6CCEADA01F4E9B0600531357 /* bast_ftl.cpp */,
+				6CCEADA11F4E9B0600531357 /* bdftl_ftl.cpp */,
+				6CCEADA21F4E9B0600531357 /* dftl_ftl.cpp */,
+				6CCEADA31F4E9B0600531357 /* dftl_parent.cpp */,
+				6CCEADA41F4E9B0600531357 /* fast_ftl.cpp */,
+				6CCEADA51F4E9B0600531357 /* page_ftl.cpp */,
+			);
+			name = FTLs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6CCEAD0F1F4E984F00531357 /* ftlsim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CCEAD171F4E984F00531357 /* Build configuration list for PBXNativeTarget "ftlsim" */;
+			buildPhases = (
+				6CCEAD0C1F4E984F00531357 /* Sources */,
+				6CCEAD0D1F4E984F00531357 /* Frameworks */,
+				6CCEAD0E1F4E984F00531357 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ftlsim;
+			productName = ftlsim;
+			productReference = 6CCEAD101F4E984F00531357 /* ftlsim */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6CCEAD081F4E984F00531357 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Ansonn;
+				TargetAttributes = {
+					6CCEAD0F1F4E984F00531357 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6CCEAD0B1F4E984F00531357 /* Build configuration list for PBXProject "ftlsim" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6CCEAD071F4E984F00531357;
+			productRefGroup = 6CCEAD111F4E984F00531357 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CCEAD0F1F4E984F00531357 /* ftlsim */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CCEAD0C1F4E984F00531357 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CCEADCF1F4E9B7700531357 /* ssd_bm.cpp in Sources */,
+				6CCEADBA1F4E9B3100531357 /* ssd_stats.cpp in Sources */,
+				6CCEAD9F1F4E9AED00531357 /* SSDSim.cpp in Sources */,
+				6CCEADCE1F4E9B7700531357 /* ssd_block.cpp in Sources */,
+				6CCEADD11F4E9B7700531357 /* ssd_channel.cpp in Sources */,
+				6CCEADB41F4E9B3100531357 /* ssd_package.cpp in Sources */,
+				6CCEADA91F4E9B0600531357 /* dftl_parent.cpp in Sources */,
+				6CCEADC31F4E9B6100531357 /* ssd_controller.cpp in Sources */,
+				6CCEADC61F4E9B6100531357 /* ssd_ftlparent.cpp in Sources */,
+				6CCEADB51F4E9B3100531357 /* ssd_page.cpp in Sources */,
+				6CCEADA81F4E9B0600531357 /* dftl_ftl.cpp in Sources */,
+				6CCEADB91F4E9B3100531357 /* ssd_ssd.cpp in Sources */,
+				6CCEADC41F4E9B6100531357 /* ssd_die.cpp in Sources */,
+				6CCEADBB1F4E9B3100531357 /* ssd_wl.cpp in Sources */,
+				6CCEADAA1F4E9B0600531357 /* fast_ftl.cpp in Sources */,
+				6CCEADCD1F4E9B7700531357 /* ssd_address.cpp in Sources */,
+				6CCEADD01F4E9B7700531357 /* ssd_bus.cpp in Sources */,
+				6CCEADC71F4E9B6100531357 /* ssd_gc.cpp in Sources */,
+				6CCEADA61F4E9B0600531357 /* bast_ftl.cpp in Sources */,
+				6CCEADB61F4E9B3100531357 /* ssd_plane.cpp in Sources */,
+				6CCEADC51F4E9B6100531357 /* ssd_event.cpp in Sources */,
+				6CCEAD141F4E984F00531357 /* main.cpp in Sources */,
+				6CCEADC21F4E9B6100531357 /* ssd_config.cpp in Sources */,
+				6CCEADB81F4E9B3100531357 /* ssd_ram.cpp in Sources */,
+				6CCEADA71F4E9B0600531357 /* bdftl_ftl.cpp in Sources */,
+				6CCEADAB1F4E9B0600531357 /* page_ftl.cpp in Sources */,
+				6CCEADB71F4E9B3100531357 /* ssd_raidssd.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6CCEAD151F4E984F00531357 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6CCEAD161F4E984F00531357 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6CCEAD181F4E984F00531357 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_CXX0X_EXTENSIONS = NO;
+				HEADER_SEARCH_PATHS = /usr/local/include/;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6CCEAD191F4E984F00531357 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_CXX0X_EXTENSIONS = NO;
+				HEADER_SEARCH_PATHS = /usr/local/include/;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CCEAD0B1F4E984F00531357 /* Build configuration list for PBXProject "ftlsim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CCEAD151F4E984F00531357 /* Debug */,
+				6CCEAD161F4E984F00531357 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CCEAD171F4E984F00531357 /* Build configuration list for PBXNativeTarget "ftlsim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CCEAD181F4E984F00531357 /* Debug */,
+				6CCEAD191F4E984F00531357 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6CCEAD081F4E984F00531357 /* Project object */;
+}

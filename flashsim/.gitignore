@@ -12,3 +12,5 @@ test2
 ufliptrace
 *.o
 *.kdev4
+*.exvim*
+debug
